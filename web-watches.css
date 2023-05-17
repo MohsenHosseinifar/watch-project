@@ -1,0 +1,402 @@
+*/{
+    font-family: Lato,sans-serif ;
+}
+/* قسمت منو سایت  */
+
+div.heder-batem{
+    max-width: 1400px;
+    font-family: Lato,sans-serif;
+    font-size: 14px;
+    margin-bottom: 120px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+div.brand-logo{
+    position: absolute;
+    left: 160px;
+    top: 43px;
+}
+ 
+ ul.icon{
+     position: absolute;
+     left:  1238px;
+     top: 24px;
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   
+}
+ li.icon{
+    padding: 8px;
+ }
+div.meno-text{
+    display: block;
+position: absolute;
+left: 775px;
+top: 29px;
+}
+div.nav{
+
+    background-color: rgb(255, 255, 255);
+    direction: rtl;
+    padding-right:30px  ;
+
+}
+ul.menu li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+ul.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    transition: all 0.5s;
+}
+
+ul.sub{
+    display: none;
+    position: absolute;
+}
+ul.menu li:hover ul.sub{
+    display: block;
+    color: darkblue;
+}
+ul.sub li{
+    display: block;
+    background-color: #ffffff;
+    
+}
+ul.menu{
+    display: block;
+    
+}
+
+a.meno-haver{
+    position: relative;
+    color:coral;
+    padding-top: 35px;
+}
+a.meno-haver::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background-color:coral;
+    transition: all 400ms;
+}
+a.meno-haver:hover::after{
+width: 100%;
+}
+.meno-key:hover{
+content: '';
+color: coral;
+transition: all 400ms;
+}
+/* قسمت منو چپ صفحه  */
+
+
+
+.icon-left-meno{
+    color: #000000;
+    position: absolute;
+    left: 92px;
+    top: 40px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* قسمت ساید بار  */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slide_bar {
+   
+width: 100%;
+position: relative;
+margin: auto;
+}
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+.academyit3{
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+
+}
+.academyit2 {
+color: #000000;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+.active, .dot:hover { background-color: #717171; }
+.fade { animation-name: fade; animation-duration: 1.5s; }
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+.prev, .next,.academyit3{font-size: 11px}
+}
+.continer_logo_icon{
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    filter: grayscale(100%);
+padding: 60px 0px 0px;
+}
+
+  
+ /* قسمت لوگو های سایت  */
+  
+.img_logo{
+	filter: grayscale(100%);
+    opacity: .5;
+    transition: .5s ease;
+    margin: 0 auto;
+}
+	
+
+.img_logo:hover{
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.tak_img{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    width: 50%;
+    position: relative;
+}
+/* قسمت تک عکس  */
+h2{
+    position: absolute;
+    left: 110px;
+    top: 67px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: .02em;
+    font-family: Lato,sans-serif;
+}
+span{
+  color:coral;
+}
+div.tak-img-time{
+   
+    display: inline-block;
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+span.tak-img-span{
+    padding: 15px;
+    position: relative;
+    left: -597px;
+}
+div.tak-img-squer{
+    width: 322px;
+    height: 71px;
+    background-color:#2d2a25;
+    opacity: 0.9;
+    position: absolute;
+    left: 808px;
+}
+span.litel{
+    font-family: Lato,sans-serif;
+   
+}
+/* واچ شدو یک  */
+div.plp-whatch-one{
+    font-family: Lato,sans-serif;
+    width: 300px;
+border: 1px solid rgb(211, 211, 211);
+display: flex;
+text-align: center;
+flex-direction: column;
+}
+div.whatch-show-one{
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+}
+.plp-whatch-one>img{
+    
+   
+width: 108px;
+height: 175px;
+position: relative;
+left: 20px;
+}
+.plp-whatch-one>div{
+    padding-top: 20px;
+    
+}
+.plp-whatch-one>h4{
+    text-transform: uppercase;
+    color: #2d2a25;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-top: 25px;
+
+}
+.plp-whatch-one>ul{
+    list-style: none;
+    color: #717171;
+    position: relative;
+    left: -15px;
+}
+.plp-whatch-one>a{
+    display: inline-block;
+    
+    letter-spacing: .05em;
+    border: 2px solid coral;
+    position: absolute;
+    color: #000;
+    text-decoration: none;
+    width: 150PX;
+    height: 50PX;
+    
+}
+/* دکمه واچ شو  */
+.btn{
+    position: relative;
+  
+    }
+    button{
+        margin-bottom: 40px;
+      background: none;
+      color: rgb(0, 0, 0);
+      width: 120px;
+      height: 50px;
+      border: 1px solid coral ;
+      font-size: 10px;
+      transition: .6s;
+      overflow: hidden;
+    }
+    button:focus{
+      outline: none;
+    }
+    button::before{
+      content: '';
+      display: block;
+      position: absolute;
+      background: rgba(255, 255, 255, .5);
+      width: 60px;
+      height: 100px;
+      left: 0;
+      top: 0;
+      opacity: 0.5s;
+      filter: blur(30px);
+      transform: translateX(-130px)  skewX(150dg);
+    }
+    button::after{
+      content: '';
+      display: block;
+      position: absolute;
+      background: rgba(255, 255, 255, .2);
+      width: 30px;
+      height: 100px;
+      left: 30px;
+      top: 0;
+      opacity: 0;
+      filter: blur(30px);
+      transform: translateX(-100px)  skewX(150dg);
+    }
+    button:hover{
+      background: coral ;
+      cursor: pointer;
+    }
+    button:hover::before{
+      transform: translateX(-300px)  skewX(150dg);
+      opacity: 0.5s;
+      transition: .7s;
+    }
+    button:hover::after{
+      transform: translateX(-300px)  skewX(150dg);
+      opacity: 1;
+      transition: .7s;
+    }
