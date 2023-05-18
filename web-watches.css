@@ -291,6 +291,7 @@ span.litel{
 }
 /* واچ شدو یک  */
 div.plp-whatch-one{
+    
     font-family: Lato,sans-serif;
     width: 300px;
 border: 1px solid rgb(211, 211, 211);
@@ -298,7 +299,30 @@ display: flex;
 text-align: center;
 flex-direction: column;
 }
+div.plp-whatch-one:hover{
+    
+    content: '';
+    border: 1px solid coral;
+    transition : 250ms ;
+  
+}
+div.plp-whatch-one::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background-color: #000;
+    transition: all 400ms;
+}
+div.plp-whatch-one:hover::after{
+    width: 100%;
+    }
+
 div.whatch-show-one{
+    margin: 0 20px;
+    font-family: Lato,sans-serif;
     align-items: center;
     display: flex;
     justify-content:space-evenly;
@@ -341,10 +365,11 @@ left: 20px;
     height: 50PX;
     
 }
-/* دکمه واچ شو  */
+/* watch show */
+
+/* watch show btn  */
 .btn{
     position: relative;
-  
     }
     button{
         margin-bottom: 40px;
@@ -352,7 +377,7 @@ left: 20px;
       color: rgb(0, 0, 0);
       width: 120px;
       height: 50px;
-      border: 1px solid coral ;
+      border: 2px solid coral ;
       font-size: 10px;
       transition: .6s;
       overflow: hidden;
@@ -388,6 +413,8 @@ left: 20px;
     }
     button:hover{
       background: coral ;
+      color: white;
+      border: 1px solid rgb(255, 255, 255) ;
       cursor: pointer;
     }
     button:hover::before{

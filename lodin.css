@@ -1,59 +1,66 @@
-.btn{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+ 
+
+ .boxes {
+	 text-align: center;
+	 position: relative;
+	 width: 1260px;
+	 margin: 0 auto;
 }
-button{
-  background: none;
-  color: #ccc;
-  width: 250px;
-  height: 80px;
-  border: 1px solid #D35400 ;
-  font-size: 18px;
-  transition: .6s;
-  overflow: hidden;
+ .boxes .box {
+	 display: block;
+	 float: left;
+	 position: relative;
+	 width: auto;
+	 height: auto;
+	 text-align: center;
+	 border-collapse: collapse;
+	 text-decoration: none;
+	 color: #fff;
+	 margin: 0 10px;
 }
-button:focus{
-  outline: none;
+ 
+ 
+ 
+ .boxes .box:before {
+	 transition: all 0.4s;
+	 position: absolute;
+	 content: "";
+	 width: 100%;
+	 height: 50%;
+	 left: 50%;
+	 margin-left: -50%;
+	 top: 25%;
+	 border-color: rgba(200, 200, 200, 0);
+	 border-style: solid;
+	 border-width: 0 1px;
 }
-button::before{
-  content: '';
-  display: block;
-  position: absolute;
-  background: rgba(255, 255, 255, .5);
-  width: 60px;
-  height: 100px;
-  left: 0;
-  top: 0;
-  opacity: 0.5s;
-  filter: blur(30px);
-  transform: translateX(-130px)  skewX(150dg);
+ .boxes .box:after {
+	 transition: all 0.4s;
+	 position: absolute;
+	 content: "";
+	 width: 50%;
+	 height: 100%;
+	 left: 50%;
+	 margin-left: -25%;
+	 top: 0;
+	 border-color: rgba(200, 200, 200, 0);
+	 border-style: solid;
+	 border-width: 1px 0;
 }
-button::after{
-  content: '';
-  display: block;
-  position: absolute;
-  background: rgba(255, 255, 255, .2);
-  width: 30px;
-  height: 100px;
-  left: 30px;
-  top: 0;
-  opacity: 0;
-  filter: blur(30px);
-  transform: translateX(-100px)  skewX(150dg);
+ .boxes .box:hover {
+	 color: #4099ff;
 }
-button:hover{
-  background: #D35400 ;
-  cursor: pointer;
+ 
+
+ .boxes .box:hover:after {
+	 width: 402px;
+	 margin-left: -50%;
+	 border-color: rgb(194, 0, 0);
 }
-button:hover::before{
-  transform: translateX(-300px)  skewX(150dg);
-  opacity: 0.5s;
-  transition: .7s;
+ .boxes .box:hover:before {
+	 height: 352px;
+	 top: 0%;
+	 border-color: rgb(180, 0, 0);
 }
-button:hover::after{
-  transform: translateX(-300px)  skewX(150dg);
-  opacity: 1;
-  transition: .7s;
-}
+ 
