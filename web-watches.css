@@ -594,12 +594,64 @@ del{
     margin-top: 100px;
 }
 /* baners */
-.baners{
-    flex-direction: row;
-    display: flex;
+.container-baner{
+	padding-top: 70px;
+	display: flex;
+	flex-direction: row;
+justify-content: center;
 }
-img{
-   
-    width: 200px;
-    height: 100px;
+.baners{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+       width: 433px;
+	   height: 200px;
+      margin-left: 30px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    
+}
+.baner{
+	width: 433px;
+	height: 200px;
+	padding: 10px;
+	overflow: hidden;
+}
+.baner1:hover{
+	transform: scale(1.2);
+	
+}
+.baner2:hover{
+	transform: scale(1.2);
+}
+.baner3:hover{
+	transform: scale(1.2);
+}
+.baner1{
+	width: 433px;
+	height: 200px;
+	background: url("/baner-one/1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+.baner2{
+	width: 433px;
+	height:200px;
+	background: url("/baner-one/2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+.baner3{
+	width: 433px;
+	height: 200px;
+	background: url("/baner-one/3.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 1s;
 }

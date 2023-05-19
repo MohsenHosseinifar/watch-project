@@ -1,66 +1,61 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
- 
-
- .boxes {
-	 text-align: center;
-	 position: relative;
-	 width: 1260px;
-	 margin: 0 auto;
+.container-baner{
+	padding-top: 70px;
+	display: flex;
+	flex-direction: row;
+justify-content: center;
 }
- .boxes .box {
-	 display: block;
-	 float: left;
-	 position: relative;
-	 width: auto;
-	 height: auto;
-	 text-align: center;
-	 border-collapse: collapse;
-	 text-decoration: none;
-	 color: #fff;
-	 margin: 0 10px;
+.baners{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+       width: 433px;
+	   height: 200px;
+      margin-left: 30px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    
 }
- 
- 
- 
- .boxes .box:before {
-	 transition: all 0.4s;
-	 position: absolute;
-	 content: "";
-	 width: 100%;
-	 height: 50%;
-	 left: 50%;
-	 margin-left: -50%;
-	 top: 25%;
-	 border-color: rgba(200, 200, 200, 0);
-	 border-style: solid;
-	 border-width: 0 1px;
+.baner{
+	width: 433px;
+	height: 200px;
+	padding: 10px;
+	overflow: hidden;
 }
- .boxes .box:after {
-	 transition: all 0.4s;
-	 position: absolute;
-	 content: "";
-	 width: 50%;
-	 height: 100%;
-	 left: 50%;
-	 margin-left: -25%;
-	 top: 0;
-	 border-color: rgba(200, 200, 200, 0);
-	 border-style: solid;
-	 border-width: 1px 0;
+.baner1:hover{
+	transform: scale(1.2);
+	
 }
- .boxes .box:hover {
-	 color: #4099ff;
+.baner2:hover{
+	transform: scale(1.2);
 }
- 
-
- .boxes .box:hover:after {
-	 width: 402px;
-	 margin-left: -50%;
-	 border-color: rgb(194, 0, 0);
+.baner3:hover{
+	transform: scale(1.2);
 }
- .boxes .box:hover:before {
-	 height: 352px;
-	 top: 0%;
-	 border-color: rgb(180, 0, 0);
+.baner1{
+	width: 433px;
+	height: 200px;
+	background: url("/baner-one/2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 1s;
 }
- 
+.baner2{
+	width: 433px;
+	height:200px;
+	background: url("/baner-one/1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+.baner3{
+	width: 433px;
+	height: 200px;
+	background: url("/baner-one/3.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
