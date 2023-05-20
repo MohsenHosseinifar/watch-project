@@ -863,16 +863,18 @@ ul.plp-four-ul {
 .section-baner{
     background-color: #f1f5f4;
 }
+
 .continer-five-watch {
    
-    padding-top: 70px;
+    padding-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .div-baner-watch-two {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     width: 433px;
     height: 200px;
@@ -881,7 +883,9 @@ ul.plp-four-ul {
     position: relative;
     cursor: pointer;
 }
+
 .baner-div-5 {
+   
     position: relative;
     width: 433px;
     height: 200px;
