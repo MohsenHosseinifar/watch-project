@@ -1,4 +1,4 @@
-*/{
+*{
     font-family: Lato,sans-serif ;
 }
 /* قسمت منو سایت  */
@@ -544,26 +544,15 @@ del{
     
  }
 .rectangle{
-    width: 15px;
-    height: 15px;
-    background-color: coral;
-    margin: 10px;
+   
     
 }
-.rectangle-s{
-    position: relative;
-    top: 72px;
-    display: flex;
-   justify-content: center;
-  
-}
- .line-rectangle{
-    width: 250px;
-    height: 1px;
-    background-color: coral;
-    position: relative;
-    left: 630px;
-    top:90px
+
+ 
+ .line-Square{
+     position: relative;
+     left: 610px;
+     top: 83px;
  }
  .tex-rectangle-thire{
      display: flex;
@@ -654,4 +643,88 @@ justify-content: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	transition: all 1s;
+}
+/*  watch show-4 */
+.plp-for-left>img{
+  
+    margin-right: 30px;
+    
+    width: 284px;
+    height: 310px;
+    position: relative;
+    left: 20px;
+
+}
+.plp-four-center{ position: relative;
+    left: -33px;
+    top: 103px;
+    margin: 0%;
+    list-style: none;
+    padding-left: 17px;
+    padding-bottom: 17px;
+}
+.plp-four-ul-center{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+position: relative;
+list-style: none;
+top: -20px;
+left: -42px;
+}
+ul.plp-four-ul{
+    position: relative;
+    left: -33px;
+    top: 103px;
+    margin: 0%;
+    list-style: none;
+    padding-left: 17px;
+    padding-bottom: 17px;
+}
+/* plp */
+.div-left-top{
+   display: flex;
+ flex-direction:row;
+
+}
+.div-left-bottom{
+    display: flex;
+ flex-direction:row;
+}
+.div-right-top{
+    display: flex;
+    flex-direction:row;
+}
+.div-right-bottem{
+    display: flex;
+    flex-direction:row;
+}
+.center-item{
+    display: flex;
+    flex-direction:column;
+}
+.continer-watch-show-four{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+/* div item left - rigth */
+.left-item{
+    display: flex;
+    flex-direction:column;
+}
+.right-item{
+    display: flex;
+    flex-direction:column;
+}
+.img-show-two-{
+    width: 354px;
+    height: 383;
+    position: relative;
+    top: -131px;
+}
+.center-item{
+    padding-left: 20px;
+    padding-right: 20px;
 }
