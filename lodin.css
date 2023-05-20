@@ -1,21 +1,6 @@
-.container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
-	justify-items: center;
-	align-items: center;
-	grid-template-areas:
-	  "a b c"
-	  ". e ."
-	  "g h i";
-  }
-  
-  .item {
-	border: 2px solid black;
-	padding: 20px;
-  }
-  
-  .center-row {
-	grid-area: e;
-  }
-  
+width: 433px;
+height: 200px;
+margin-left: 30px;
+ overflow: hidden;
+ position: relative;
+ cursor: pointer;

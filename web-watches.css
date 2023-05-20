@@ -543,12 +543,7 @@ del{
     
     
  }
-.rectangle{
-   
-    
-}
 
- 
  .line-Square{
      position: relative;
      left: 610px;
@@ -601,12 +596,7 @@ justify-content: center;
         cursor: pointer;
     
 }
-.baner{
-	width: 433px;
-	height: 200px;
-	padding: 10px;
-	overflow: hidden;
-}
+
 .baner1:hover{
 	transform: scale(1.2);
 	
@@ -646,14 +636,19 @@ justify-content: center;
 }
 /*  watch show-4 */
 .plp-for-left>img{
-  
+
+     overflow: hidden;
+     cursor: pointer;
     margin-right: 30px;
-    
     width: 284px;
     height: 310px;
     position: relative;
     left: 20px;
-
+    transition: all 1s;
+}
+.plp-for-left>img:hover{
+    
+    transform: scale(1.1);
 }
 .plp-four-center{ position: relative;
     left: -33px;
@@ -681,7 +676,7 @@ ul.plp-four-ul{
     padding-left: 17px;
     padding-bottom: 17px;
 }
-/* plp */
+/* plp watch show-4 */
 .div-left-top{
    display: flex;
  flex-direction:row;
@@ -709,7 +704,7 @@ ul.plp-four-ul{
     justify-content:center;
     align-items: center;
 }
-/* div item left - rigth */
+/* div item left - rigth watch show-4 */
 .left-item{
     display: flex;
     flex-direction:column;
