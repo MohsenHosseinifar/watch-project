@@ -1224,3 +1224,22 @@ form{
     flex-direction: row-reverse;
     justify-content:space-around;
 }
+
+.footer-top-right>.btn{
+    margin-bottom: 40px;
+    background: coral;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 10px;
+    transition: .6s;
+    overflow: hidden;
+    
+}
+.footer-top-right>.btn:hover{
+    background: rgb(255, 255, 255);
+    color: coral;
+    border: 1px solid coral;
+    cursor: pointer;
+}
