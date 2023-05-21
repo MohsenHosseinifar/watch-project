@@ -1243,3 +1243,81 @@ form{
     border: 1px solid coral;
     cursor: pointer;
 }
+
+
+
+.footer-center-right>div>h4{
+    color: #222;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: .03em;
+    line-height: 1;
+}
+ul{
+    list-style: none;
+}
+.footer-center-right>div>h4>ul>li{
+    position: relative;
+    color: rgb(203, 0, 0);
+}
+.footer-center-right{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:center;
+}
+.footer-center-right>div{
+    padding: 20px;
+}
+.footer-icon{
+    padding-right: 20px;
+}
+.footer-icon-s{
+    display: flex;
+flex-direction: row;
+}
+.footer-center{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+}
+.footer-center-left{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.logo-price{
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.logo-price-s{
+    display: flex;
+    flex-direction: row;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-between ;
+}
+.footer-bottom{
+    background-color: #ffffff;
+}
+.text-price>p{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.ul-footer{
+    font-size: 16px;
+    color: #9b9b9b;
+}
+.ul-footer>li{
+    padding-bottom: 8px;
+}
+.ul-footer>li:hover{}
+.footer-center-left-text>p{
+    color: #9b9b9b;
+}
+.footer-icon:hover{
+color: coral;
+transition: all 500ms;
+}
