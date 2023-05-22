@@ -1,7 +1,9 @@
 * {
     font-family: Lato, sans-serif;
 }
-
+body{
+  overflow-x: hidden;
+}
 /* قسمت منو سایت  */
 
 div.heder-batem {
@@ -362,6 +364,7 @@ overflow: hidden;
 }
 
 /* قسمت تک عکس  */
+
 h2 {
     position: absolute;
     left: 110px;
@@ -407,7 +410,96 @@ span.litel {
 
 }
 
-/* واچ شدو یک  */
+/* watch show-one */
+.continer-wso {
+
+    padding: 20px;
+
+}
+
+div.plp-whatch-one {
+    background-color: white;
+    font-family: Lato, sans-serif;
+    width: 300px;
+    border: 1px solid rgb(211, 211, 211);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+div.plp-whatch-one:hover {
+
+    content: '';
+    border: 1px solid coral;
+    transition: 250ms;
+
+}
+
+div.plp-whatch-one::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 2px;
+    background-color: #000;
+    transition: all 400ms;
+}
+
+div.plp-whatch-one:hover::after {
+    width: 100%;
+}
+
+div.whatch-show-one {
+    margin: 0 20px;
+    font-family: Lato, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.plp-whatch-one>img {
+
+
+    width: 108px;
+    height: 175px;
+    position: relative;
+    left: 20px;
+}
+
+.plp-whatch-one>div {
+    padding-top: 20px;
+
+}
+
+.plp-whatch-one>h4 {
+    text-transform: uppercase;
+    color: #2d2a25;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-top: 25px;
+
+}
+
+.plp-whatch-one>ul {
+    list-style: none;
+    color: #717171;
+    position: relative;
+    left: -15px;
+}
+
+.plp-whatch-one>a {
+    display: inline-block;
+
+    letter-spacing: .05em;
+    border: 2px solid coral;
+    position: absolute;
+    color: #000;
+    text-decoration: none;
+    width: 150PX;
+    height: 50PX;
+}
+/* watch show-one */
 .continer-wso {
 
     padding: 20px;
@@ -498,7 +590,7 @@ div.whatch-show-one {
 
 }
 
-/* watch show-one */
+
 
 /* watch show btn  */
 .btn {
